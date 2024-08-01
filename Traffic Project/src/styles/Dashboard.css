@@ -1,0 +1,87 @@
+.dashboard {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 85px;
+  height: calc(100vh - 85px);
+}
+
+.sidebar {
+  width: 25%;
+  padding: 20px;
+  background-color: #f0f0f0;
+  overflow-y: auto;
+  border-radius: 10px;
+}
+
+.content {
+  width: 100%;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.camera-number {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  z-index: 10;
+}
+
+.data-panel {
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  color: #000000;
+  overflow-y: auto;
+  max-height: calc(100vh - 105px);
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+.selections h3,
+.selections label,
+.selections select {
+  color: #000000;
+}
+
+.selections select {
+  width: 100%;
+  padding: 5px;
+  margin-top: 5px;
+  color: #333;
+}
+
+.selections select::-ms-expand {
+  color: #333;
+}
+
+.selections select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: url("data:image/svg+xml;charset=US-ASCII,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='%23333' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E") no-repeat right 0.75em center / 0.5em;
+}
+
+.live-stats ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.live-stats button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

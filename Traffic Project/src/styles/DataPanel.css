@@ -1,0 +1,59 @@
+.data-panel {
+  flex: 1;
+  padding: 10px;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  color: #000000;
+  overflow-y: auto;
+  margin-top: 20px;
+  max-height: calc(100vh - 125px);
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+.data-panel table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.data-panel th,
+.data-panel td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.data-panel th {
+  background-color: #f2f2f2;
+}
+
+.violation-image {
+  width: 250px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.license-plate-image {
+  width: 240px;
+  height: 100px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #000;
+}
+
+.section:last-child {
+  margin-bottom: 0;
+}
