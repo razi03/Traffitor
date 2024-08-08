@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '/Users/razi/Desktop/Web Dev/NESCOM/Traffic Project/src/styles/LoginRegister.css';
+import ‘../../styles/LoginRegister.css’;
 import { FaUser, FaLock, FaEnvelope } from "react-icons/fa";
 import { useNavigate } from 'react-router-dom';
 
